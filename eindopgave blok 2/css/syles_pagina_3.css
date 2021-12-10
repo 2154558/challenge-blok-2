@@ -1,23 +1,31 @@
-      .body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      
+
+
+.body{
         background-color: turquoise ;
       }
       
       .navbar_pg3{
+        font-family: 'Roboto', sans-serif;
         overflow:hidden;
         background-color: black;
         }
         
         .dropdown_pg3{
+          font-family: 'Roboto', sans-serif;
             float: right;
             overflow: hidden;
         }
         
         .logo{
+          font-family: 'Roboto', sans-serif;
             max-width: 50px;
             height: auto;
           }
         
         .dropdown_pg3 .dropbtn_pg3 {
+          font-family: 'Roboto', sans-serif;
             font-size: 16px;  
             border: none;
             outline: none;
@@ -28,10 +36,12 @@
           }
         
           .navbar_pg3 a:hover, .dropdown_pg3:hover .dropbtn_pg3 {
+            font-family: 'Roboto', sans-serif;
             background-color: orange;
           }
         
           .dropdown-content_pg3 {
+            font-family: 'Roboto', sans-serif;
             flex-direction: column;
             display: none;
             position: absolute;
@@ -42,20 +52,24 @@
           }
             
         .dropdown_content_pg3 a {
+          font-family: 'Roboto', sans-serif;
             color: black;
             display: block;
         }
         
         .dropdown-content_pg3 a:hover {
+          font-family: 'Roboto', sans-serif;
             background-color: #ddd;
           }
           
           .dropdown_pg3:hover .dropdown-content_pg3 {
+            font-family: 'Roboto', sans-serif;
             display: block;
           }
 
 
           .modules {
+            font-family: 'Roboto', sans-serif;
             height: 200px;
             width: 1000px;
             margin-top: 50px;
@@ -65,5 +79,6 @@
           }
 
           .text{
+            font-family: 'Roboto', sans-serif;
             margin: 20px;
           }

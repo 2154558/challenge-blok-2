@@ -1,27 +1,31 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .body {
 background-color: turquoise;
 }
 
 
 .navbar_pg1{
+  font-family: 'Roboto', sans-serif;
 overflow:hidden;
 background-color: black;
 }
 
 .logo{
+  font-family: 'Roboto', sans-serif;
   max-width: 50px;
   height: auto;
 }
 
 .dropdown_pg1{
+  font-family: 'Roboto', sans-serif;
     float: right;
     overflow: hidden;
 }
 
 
 .dropdown_pg1 .dropbtn_pg1 {
+  font-family: 'Roboto', sans-serif;
     font-size: 16px;  
     border: none;
     outline: none;
@@ -32,10 +36,12 @@ background-color: black;
   }
 
   .navbar_pg1 a:hover, .dropdown:hover .dropbtn_pg1 {
+    font-family: 'Roboto', sans-serif;
     background-color: orange;
   }
 
   .dropdown-content_pg1 {
+    font-family: 'Roboto', sans-serif;
     flex-direction: column-reverse;
     display: none;
     position: absolute;
@@ -46,6 +52,7 @@ background-color: black;
   }
     
 .dropdown_content_pg1 a {
+  font-family: 'Roboto', sans-serif;
     float: none;
     color: black;
     padding: 12px 16px;
@@ -56,15 +63,18 @@ background-color: black;
 }
 
 .dropdown-content_pg1 a:hover {
+  font-family: 'Roboto', sans-serif;
     background-color: #ddd;
   }
   
   .dropdown_pg1:hover .dropdown-content_pg1 {
+    font-family: 'Roboto', sans-serif;
     display: block;
     flex-direction: column;
   }
 
 .main_inhoud {
+  font-family: 'Roboto', sans-serif;
   height: 200px;
   width: 1000px;
   margin-top: 50px;
@@ -76,6 +86,7 @@ background-color: black;
 
 
 .skills{
+  font-family: 'Roboto', sans-serif;
   display: flex;
   display: inline-block;
   height: 150px;
@@ -87,11 +98,13 @@ background-color: black;
 }
 
 .over_mij{
+  font-family: 'Roboto', sans-serif;
   margin: 20px;
   margin-top: 30px;
 }
 
 .foto_mij{
+  font-family: 'Roboto', sans-serif;
   display: flex;
   float: right;
   display: inline-block;
